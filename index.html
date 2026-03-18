@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
   :root {
     --bg: #0e0e0f;
     --bg2: #161618;
@@ -19,21 +19,21 @@
     --accent: #e8a942;
     --green: #4caf7d;
   }
-
+ 
   html, body {
-    background: transparent;
+    background: #191919;
     color: var(--text);
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
   }
-
+ 
   .page {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0;
   }
-
+ 
   .campaign-card {
     background: var(--bg2);
     border: 0.5px solid var(--border);
@@ -44,7 +44,7 @@
     animation: fadeUp .55s ease forwards;
   }
   @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
-
+ 
   /* ── 1. Top bar ── */
   .card-topbar {
     display: flex;
@@ -71,7 +71,7 @@
     color: var(--text-dim);
     letter-spacing: .05em;
   }
-
+ 
   /* ── 2. Concept brief ── */
   .concept-section {
     padding: 32px 26px 28px;
@@ -122,7 +122,7 @@
     flex-shrink: 0;
     opacity: 0.6;
   }
-
+ 
   /* ── 3. Video 16:9 ── */
   .video-section {
     background: #000;
@@ -140,7 +140,7 @@
     height: 100%;
     display: block;
   }
-
+ 
   /* ── 4. Objectives ── */
   .objectives {
     padding: 24px 26px;
@@ -183,9 +183,9 @@
 </head>
 <body>
 <div class="page">
-
+ 
   <div class="campaign-card">
-
+ 
     <!-- 1. Top bar -->
     <div class="card-topbar">
       <div class="card-tags">
@@ -194,7 +194,7 @@
       </div>
       <span class="card-meta">Campaign 01 · mp4</span>
     </div>
-
+ 
     <!-- 2. Concept -->
     <div class="concept-section">
       <div class="campaign-eyebrow">The concept</div>
@@ -209,7 +209,7 @@
         <li>The mechanic explains itself</li>
       </ul>
     </div>
-
+ 
     <!-- 3. Video -->
     <div class="video-section">
       <div class="video-ratio">
@@ -218,7 +218,7 @@
         </video>
       </div>
     </div>
-
+ 
     <!-- 4. Objectives -->
     <div class="objectives">
       <div class="obj-label">Objectives</div>
@@ -241,9 +241,10 @@
         </div>
       </div>
     </div>
-
+ 
   </div>
-
+ 
 </div>
 </body>
 </html>
+ 
